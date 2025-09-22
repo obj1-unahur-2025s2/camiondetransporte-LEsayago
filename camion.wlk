@@ -26,7 +26,13 @@ cargadas en el camión son números pares.*/
 obtener la primer cosa cargada que tenga un determinado nivel de peligrosidad*/
 
   method primerElementoConPeligrosidad_(unNivelDePeligrosidad) = contenido.find({x => x.peligrosidad() == unNivelDePeligrosidad}) 
-}
 
 /*Obtener todas las cosas que superan un determinado nivel de peligrosidad.*/
+method cargaConPeligrosidadSuperiorA(unaPeligrosidad) = contenido.filter({x => x.peligrosidad() > unaPeligrosidad})
+
+
+}
+
+
+
 

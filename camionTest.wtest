@@ -18,4 +18,6 @@ describe "camion"{
     camion.cargar(knightRider)
     assert.equals(1500 , camion.peso())
   }
+
+  
   }

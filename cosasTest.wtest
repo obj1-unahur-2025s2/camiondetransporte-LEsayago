@@ -5,5 +5,10 @@ describe "group of test for cosas" {
   test "first test" {
     assert.that(true)
   }
+}
 
+describe "Cosas" {
+  test "Knight Rider" {
+    assert.equals(500, knightRider.peso())
+  }
 }
