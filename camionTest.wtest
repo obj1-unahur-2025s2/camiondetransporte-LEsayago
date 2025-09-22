@@ -1,9 +1,21 @@
 import camion.*
+import cosas.*
+
 
 describe "group of test for camion" {
 
   test "first test" {
     assert.that(true)
   }
-
 }
+describe "camion"{
+ 
+  test "Peso del camion vacio" {
+    assert.equals(1000 , camion.peso())
+  }
+  
+  test "peso Con el Auto Fantastico" {
+    camion.cargar(knightRider)
+    assert.equals(1500 , camion.peso())
+  }
+  }
